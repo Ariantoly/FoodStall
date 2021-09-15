@@ -1,0 +1,83 @@
+<h2 class="bordered-heading">Form</h2>
+<script type="text/javascript" src="../asset/js/jquery.ui.timepicker.js"></script>
+<script type="text/javascript" src="../asset/js/multiselect.js"></script>
+<script type="text/javascript" src="../asset/js/plugins/multiselect.js"></script>
+<div class="search-filter-form" id="trainingForm">
+	<form action="">
+		<p>
+			<label>Username <span class="required">*</span></label>
+			<input type="text">
+		</p>
+		<p>
+			<label>Description </label>
+			<input type="text">
+		</p>
+		<p>
+			<label>Password</label>
+			<input type="password">
+		</p>
+		<p>
+			<label>Date of Birth</label>
+			<span class="custom-datepicker">
+            	<input type="text" class="datepicker">
+            	<span class="icon-area"></span>
+        	</span>
+		</p>
+		<p>
+			<label for="">Date</label>
+			<span class="custom-datepicker">
+				<input type="text" class="datepicker">
+				<span class="icon-area"></span>
+			</span>
+		</p>
+		<p>
+            <label>Choose Time</label>
+            <span class="custom-timepicker">
+                <input type="text" name="input[]" class="timepicker">
+				<span class="icon-area"></span>
+            </span>
+        </p>
+		<p>
+            <label>Choose DateTime</label>
+            <span class="custom-datetimepicker">
+                <input type="text" name="input[]" class="datetimepicker">
+				<span class="icon-area"></span>
+            </span>
+        </p>
+	    <p>
+	        <label>Photo Profile</label>
+	        <span class="custom-uploader">
+	            <input type="text" readonly="readonly" class="field-temporary">
+	            <input type="file" class="upload-area">
+	            <span class="icon-area"></span>
+	        </span>
+	    </p>
+	    <p>
+	        <label>Country</label>
+	        <span class="custom-combobox">
+	            <select id="ddlCountry">
+	            </select>
+	        </span>
+		</p>
+    	<p>
+	        <label>Ctr</label>
+	        <span class="custom-chosen">
+	            <select id="ddlCtr">
+	            </select>
+	        </span>
+		</p>
+    	<p>
+    		<label>Or Using Email Address</label>
+    		<span class="input-group">
+                <span class="addon"><input type="checkbox" name="input[]"></span>
+                <input type="text" name="input[]">
+                <span class="addon">@example.com</span>
+            </span>
+    	</p>
+    	<p>
+    		<span class="alert has-error">Form is error.</span>
+    		<span class="alert has-success">Form has been saved.</span>
+    		<span class="alert has-warning">All field required.</span>
+    	</p>
+	</form>
+</div>

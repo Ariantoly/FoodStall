@@ -1,0 +1,156 @@
+/* line 7, ../sass/dbcl.scss */
+#campus-location-wrapper {
+  background: #f1f1f1;
+  border-bottom: solid 1px #c9c9c9;
+  position: relative;
+  padding: 0;
+  margin: -20px 0 20px;
+}
+/* line 13, ../sass/dbcl.scss */
+#campus-location-wrapper.binus-acid {
+  margin: 0;
+}
+/* line 16, ../sass/dbcl.scss */
+#campus-location-wrapper .child-container > .row {
+  position: relative;
+}
+@media (min-width: 767px) {
+  /* line 7, ../sass/dbcl.scss */
+  #campus-location-wrapper {
+    background: none;
+    border: none;
+    margin: 0;
+  }
+  /* line 24, ../sass/dbcl.scss */
+  #campus-location-wrapper.binus-acid #campus-location-button {
+    top: -15px;
+  }
+}
+
+/* line 30, ../sass/dbcl.scss */
+#campus-location-button {
+  padding: 10px 6.5px;
+}
+/* line 36, ../sass/dbcl.scss */
+#campus-location-button .the-location {
+  padding: 0 3.5px;
+  height: 30px;
+}
+/* line 39, ../sass/dbcl.scss */
+#campus-location-button .the-location .wrapper {
+  display: block;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+/* line 44, ../sass/dbcl.scss */
+#campus-location-button .the-location .the-button {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  line-height: 30px;
+  height: 30px;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+/* line 52, ../sass/dbcl.scss */
+#campus-location-button .the-location .the-button.multi-line {
+  line-height: 12px;
+  padding-top: 3px;
+}
+/* line 57, ../sass/dbcl.scss */
+#campus-location-button .the-location .the-button:hover .blue-wrap, #campus-location-button .the-location .the-button.active .blue-wrap {
+  background: #f08700;
+}
+/* line 65, ../sass/dbcl.scss */
+#campus-location-button .the-location a.the-button:active .blue-wrap {
+  background: #f08700;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 72, ../sass/dbcl.scss */
+#campus-location-button .the-location .blue-wrap {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  position: absolute;
+  left: -5px;
+  right: -5px;
+  top: -5px;
+  bottom: -5px;
+  background: #0098d7;
+}
+/* line 79, ../sass/dbcl.scss */
+#campus-location-button .the-location .text-wrapper {
+  display: block;
+  position: relative;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media (min-width: 767px) {
+  /* line 30, ../sass/dbcl.scss */
+  #campus-location-button {
+    position: absolute;
+    top: -35px;
+    right: -4px;
+    padding: 0;
+    width: 310px;
+    z-index: 3;
+  }
+}
+
+/* line 98, ../sass/dbcl.scss */
+#bclb-campus-jakarta .the-button {
+  background: url('../images/kampus-kemanggisan.jpg?1470116784');
+}
+
+/* line 101, ../sass/dbcl.scss */
+#bclb-campus-malang .the-button {
+  background: url('../images/kampus-malang.jpg?1470116713');
+}
+
+/* line 104, ../sass/dbcl.scss */
+#bclb-campus-bandung .the-button {
+  background: url('../images/kampus-bandung.jpg?1470116713');
+}
+
+/* line 108, ../sass/dbcl.scss */
+#tagline-banner {
+  top: 85px;
+}
+@media (min-width: 767px) {
+  /* line 108, ../sass/dbcl.scss */
+  #tagline-banner {
+    top: 35px;
+  }
+}
+@media (min-width: 880px) {
+  /* line 108, ../sass/dbcl.scss */
+  #tagline-banner {
+    top: 0;
+  }
+}
+
+@media (min-width: 880px) {
+  /* line 126, ../sass/dbcl.scss */
+  #binus-awards #binus-awards-trigger {
+    right: 315px;
+  }
+}
+@media (min-width: 991px) {
+  /* line 126, ../sass/dbcl.scss */
+  #binus-awards #binus-awards-trigger {
+    right: 360px;
+  }
+}
+
+@media (min-width: 991px) {
+  /* line 136, ../sass/dbcl.scss */
+  #web-search-trigger {
+    right: 315px;
+  }
+}

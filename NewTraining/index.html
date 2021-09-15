@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>Binus University - Binusmaya</title>
+	<!-- Favicon -->
+		<link rel="icon" type="image/png" href="../asset/images/favicon.ico">
+
+		<!-- Stylesheet -->
+		<link id="DefaultCssMainSite" rel="stylesheet" type="text/css" href="">
+		<link id="CssMainSite" rel="stylesheet" type="text/css" href="">
+		<link rel="stylesheet" type="text/css" href="../asset/css/style-binus-lms.css">
+		<link id="CssModuleSite" rel="stylesheet" type="text/css" href="">
+		<link rel="stylesheet" type="text/css" href="../asset/css/custom-icon.css">
+
+		<!-- Vendor -->
+		<script type="text/javascript" src="../asset/js/jquery.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.ui.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.browser.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.fancyfields.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.fancybox.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.mcustomscrollbar.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.datatables.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.datatables.fixedcolumns.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.chosen.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.qtip.js"></script>
+		<script type="text/javascript" src="../asset/js/raphael.js"></script>
+		<script type="text/javascript" src="../asset/js/ckeditor/ckeditor.js"></script>
+		<script type="text/javascript" src="../asset/js/multiselect.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/multiselect.js"></script>
+		<!--<script type="text/javascript" src="js/formalhaut/build/formalhaut.js"></script>-->
+
+		<!-- Calendar -->
+		<script type="text/javascript" src="../asset/js/date.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.formbubble.js"></script>
+		<script type="text/javascript" src="../asset/js/fullcalendar.js"></script>
+		<script type="text/javascript" src="../asset/js/fullcalendar.viewmore.js"></script>
+		<script type="text/javascript" src="../asset/js/moment.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery.ui.timepicker.js"></script>
+
+
+		<!-- Plugins -->
+		<script type="text/javascript" src="../asset/js/plugins/accordion-toggle.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/advanced-combobox.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/body-navigation.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/combobox.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/datepicker.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/editor.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/freeze-pane.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/fullcalendar.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/scrollbar.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/tabulation.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/tooltip.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/uploader.js"></script>
+		<script type="text/javascript" src="../asset/js/plugins/widgets.js"></script>
+
+		<!-- Main JS -->
+		<script type="text/javascript" src="../asset/js/main.js"></script>
+
+		<!-- Global -->
+		<script type="text/javascript" src="../asset/js/script.js"></script>
+		<script type="text/javascript" src="../asset/js/script.navigation.js"></script>
+
+		<script type="text/javascript" src="../asset/js/head.js"></script>
+	    <script type="text/javascript" src="../asset/js/config.js"></script>
+	    <script type="text/javascript" src="../asset/js/body.js"></script>
+	    <script type="text/javascript" src="../asset/js/general.js"></script>
+	    <script type="text/javascript" src="../asset/js/script-binus-lms.js"></script>
+	    <script type="text/javascript" src="../asset/modules/binusmaya/js/script.js"></script>
+	    
+</head>
+<body>
+		<div class="wrap-outer main-container" id="page">
+			<div class="wrap">
+
+				<section class="tagline-banner new-layout">
+				<div class="container">
+					<div class="wrap">
+						<span class="banner">
+							<span class="banner-image"></span>
+						</span>
+						<span class="tagline">People Innovation Excellence</span>
+					</div>
+				</div>
+			</section><!-- .tagline-banner -->
+
+			<header class="header" id="header">
+				<div class="container">
+					<section class="logo">
+						<a href="#/welcome">
+							<img src="" alt="Logo" id="imgLogo">
+						</a>
+					</section><!-- .logo -->
+
+					<section class="top-navigation top-navigation-lecturer" id="top-nav">
+						<nav class="navigation">
+							<div class="container">
+								<span class="logo-nav">
+									<span class="logo-text">
+										<span class="business-unit">Bina Nusantara<br/> University</span>
+										
+									</span>
+								</span>
+
+								<ul class="menu left">
+									<li class="expand-menu expand-item-menu" id="main-nav-expand">
+										<a href="#" class="expand-action-menu">
+											<i class="icon icon-burger-menu"></i>
+											<span class="label">Menu</span>
+										</a>
+										<div class="expand-menu-container">
+											<ul class="sub-menu main-menu primary-menu">
+												<li id="applicationlist-0"><a href="#" id="mailMenu">Mail</a></li>
+												<li id="applicationlist-1"><a href="#/assignment/view" id="assignmentMenu">View Assignment</a></li>
+												<li class="has-menu">
+													<a href="#">Courses</a>
+													<ul class="sub-sub-menu">
+														<span class="courselist" data-bind="foreach: periods">
+															<!-- ko if: $index() == 0 -->
+															<div style="text-align:center;margin-top:5%;list-style:none;" class="iCourseLoading iLoading">
+																<img alt=""></img>
+															</div>
+															<li id="courseTemplate" class="no-icon has-sub looptemplate" style="display:none;">
+																<a href="#">
+																	<span class="label"></span>
+																</a>
+																<ul class='sub-sub-menu'>
+																	<li id="course" class="no-icon has-sub looptemplate" style="display:none;">
+																		<a href="#"><span class="label"></span></a>
+																	</li>
+																</ul>
+															</li>
+															</span>
+														</span>
+													</ul>
+
+												</li>
+												<span id="applicationlist-2">
+							   					</span>
+												<!--<li><a href="#">Library</a></li>-->
+												<span id="applicationlist-3">
+							    				</span>
+							    				<div style="text-align:center;margin-top:20px;list-style:none;" class="iMainMenuLoading">
+													<img alt=""></img>
+												</div>
+											</ul>
+										</div>
+									</li>
+									<li>
+                                        <a>Server Time: <span class="serverTime"></span></a>
+                                    </li>
+								</ul>
+
+								<ul class="menu right">
+									<li class="expand-notification expand-item has-child" id="notification-expand">
+										<a href="#" class="expand-action">
+											<i class="icon icon-information"></i>
+											<span class="notif-count" id="notif-count"></span>
+										</a>
+										<ul class="sub-menu">
+											<li class="sub-title">
+												Notification
+												<a href="#">Read All</a>
+											</li>
+											<li class="list-notification" id="notifications" style="max-height:500px;">
+											</li>
+											<li class="view-all">
+												<a href="#">View All Notification</a>
+											</li>
+										</ul>
+									</li>
+									<li class="expand-settings expand-item has-child">
+										<a href="#" class="expand-action">
+											<span class="label username aUsername" id=""></span>
+										</a>
+										<ul class="sub-menu">
+											<li class="sub-title">Profile</li>
+											<li class="setting-content">
+												<div class="avatar user-profile-picture"><img src="../asset/images/statics/avatar.png" alt=""></div>
+												<div class="details">
+													<span class="student-name username aUsername"></span>
+													<span class="email-address email" id="iUserEmail" style="word-wrap:break-word;"></span>
+													<span class="link">
+														<a href="#">Dashboard</a>
+													</span>
+													<span class="link">
+														<a href="#">Account Settings</a>
+													</span>
+												</div>
+											</li>
+											<li class="logout">
+												<a href="../services/ci/index.php/login/logout">Log Out</a>
+											</li>
+										</ul>
+									</li>
+									<li class="expand-search-form">
+										<span class="wrapper">
+											<span class="icon-click-area"></span>
+											<i class="icon icon-search"></i>
+											<form action="get" action="index.php" class="search-form">
+												<span class="search-wrap">
+													<input type="text" name="search-keyword" id="search-keyword" class="search-form-field" placeholder="Type and press enter..">
+												</span>
+											</form>
+										</span>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</section>
+				</div>
+			</header>
+
+				<div id="body-components" class="component">
+					<section class="user-role component" id="user-role">
+					<div id="current-user-role" class="container">
+						<div class="wrap inside">
+							<div class="field">
+								<span class="label pre-title">Login As</span>
+								<span id="switch-role" class="component">
+									<span class="login-role inside" id="login-role">
+										<select name="login-role" id="login-role-select">
+											<option value="Staff">Staff</option>
+										</select>
+									</span>
+								</span>
+							</div>
+						</div>
+					</div>
+				</section>
+					<div id="content"></div>
+
+				</div>
+
+				<footer class="footer new-layout" id="footer">
+
+				<section class="footer-widget">
+					<div class="container">
+						<div class="group-item">
+							<div class="item has-padding-right">
+								<div class="footer-title">
+									<h2 class="title" title="Social Media tooltip">Social Media</h2>
+								</div>
+								<div class="social-media">
+									<a href="#" class="icon icon-twitter"></a>
+									<a href="#" class="icon icon-facebook"></a>
+									<a href="#" class="icon icon-google-plus"></a>
+									<a href="#" class="icon icon-youtube"></a>
+									<a href="#" class="icon icon-rss"></a>
+								</div>
+							</div>
+							<div class="item has-padding-left bottom-direction">
+								<div class="corporate-area">
+									<h1 class="main-title"></h1>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</footer>
+			</div>
+		</div>
+</body>
+</html>

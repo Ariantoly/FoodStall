@@ -1,0 +1,35 @@
+<div class="popup-content">
+    <h1 class="heading">Update Food Stall</h1>
+    <form id="form-update-foodStall">
+        <p>
+            <label>Food Stall Name</label>
+            <input id="txtName" name="FoodStallName" type="text" required>
+        </p>
+        <p>
+            <label>Food Stall Description</label>
+            <input id="txtDescription" name="FoodStallDescription" type="text" required>
+        </p>
+        <p>
+            <label>Payment</label>
+            <span class="custom-chosen">
+                <select name="PaymentID" id="ddlPayment">
+                    <option value="-1">Select Payment</option>
+                </select>
+            </span>
+        </p>
+        <p>
+            <label>Campus</label>
+            <span class="custom-chosen">
+                <select name="CampusID" id="ddlCampus">
+                    <option value="-1">Select Campus</option>
+                </select>
+            </span>
+        </p>
+        <p id="error-msg">
+            <span class="alert has-success" style="display: none;">Food Stall has been updated.</span>
+        </p>
+        <p class="text-right">
+            <input class="button button-primary" type="submit" value="Update Food Stall">
+        </p>
+    </form>
+</div>
